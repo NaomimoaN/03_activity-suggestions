@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  line-height: 1.5;
 }
 
 .App {
@@ -15,11 +16,55 @@ body {
   justify-content: space-evenly;
 }
 
+.containers {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: white;
+  width: 300px;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
+  background-color: rgb(36, 37, 23);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 li {
   cursor: pointer;
+  padding-left: 5px;
 }
+
+li:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  border-radius: 5px;
+}
+li.selected {
+  background-color: #d0d0d0 !important;
+  color: #000 !important;
+  border-radius: 5px;
+}
+
+.activity {
+  background-color: #f9f37e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #252a25;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #565555;
+}
+

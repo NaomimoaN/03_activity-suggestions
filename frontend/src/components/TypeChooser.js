@@ -24,7 +24,7 @@ function TypeChooser({ handleTypeClick }) {
   };
 
   return (
-    <div>
+    <div class="containers">
       <h1>Type Chooser</h1>
       <h2>Choose type of activities</h2>
       <ul>
@@ -46,9 +46,6 @@ function TypeChooser({ handleTypeClick }) {
 }
 
 export default TypeChooser;
-
-
-
 
 //memo I tried to fetch the types from the API and it worked but I prefed static data rather than random data. So I commented out the code below for my further study.
 

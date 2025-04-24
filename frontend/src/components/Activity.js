@@ -41,10 +41,10 @@ function Activity({ type }) {
     // if (error) return <p>Error: {error.message}</p>;
 
     return (
-      <div>
+      <div class="containers">
         <h1>Try this activity!!</h1>
         <h2>Type: {type}</h2>
-        <p>{activity}</p>
+        <p className="activity">{activity ? activity : "please choose a type of activities on the left"}</p>
         <button onClick={handleButtonClick}>Try another one</button>
       </div>
     );
